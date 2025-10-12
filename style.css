@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
+html {
   background-color: #0a0e1a;
+}
+
+body {
   color: #ffffff;
   font-family: 'Kode Mono', monospace;
   line-height: 1.6;
