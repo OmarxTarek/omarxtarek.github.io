@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Omar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;500;600;700&family=ABeeZee:ital@0;1&family=Aldrich&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">home</a>
+      <a href="projects.html" class="nav-link">projects</a>
+      <a href="contact.html" class="nav-link active">contact</a>
+    </div>
+  </nav>
+
+  <section class="contact-page-section">
+    <div class="page-header">
+      <a href="index.html" class="back-link">
+        <i class="fa-solid fa-arrow-left"></i> back
+      </a>
+      <h1 class="page-title">contact me.</h1>
+      <p class="page-subtitle">Leave feedback about the site, career opportunities or just to say hello.</p>
+    </div>
+
+    <div class="contact-page-content">
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Name" required class="form-input">
+          <input type="email" name="email" placeholder="Email" required class="form-input">
+        </div>
+
+        <textarea name="message"
+          placeholder="Leave feedback about the site, career opportunities or just to say hello etc." required
+          class="form-textarea"></textarea>
+
+        <button type="submit" class="send-btn">
+          Send Message <i class="fa-solid fa-paper-plane"></i>
+        </button>
+
+        <p class="form-footer">
+          By submitting this form, I agree to the <a href="privacy.html" class="privacy-link">privacy policy</a>.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="Home-footer">
+    <p>&copy; 2025 omarxtarek.com | <a href="privacy.html" class="privacy-link">privacy?</a></p>
+    <div class="footer-icons">
+      <a href="https://www.linkedin.com/in/omarxtarek/" class="footer-icon"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/OmarxTarek" class="footer-icon"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:omarxtarek1@gmail.com" class="footer-icon"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
